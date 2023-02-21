@@ -1,12 +1,14 @@
 <h3>Create a Dog</h3>
 <%= form_with model: @dog do |form| %>
   <%= form.text_field :name, placeholder: "name" %>
+  <%= stylesheet_link_tag 'application.css' %>
   <%= form.text_field :motto, placeholder: "motto" %>
   <%= form.submit %>
 <% end %>
 
 <!-- <%= form_for @dog do |form| %>
   <%= form.text_field :name, placeholder: 'name' %>
+  <%= stylesheet_link_tag 'application.css' %>
   <%= form.text_field :motto, placeholder: 'motto' %>
   <%= form.submit %>
 <% end %> -->
