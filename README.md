@@ -1,24 +1,75 @@
-# README
+# To Use This File:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+2. Install [Bundler](http://bundler.io/)
+3. Install [Rails](http://installrails.com/)
 
-Things you may want to cover:
+# To Run This App:
 
-* Ruby version
+1. Clone this repo
+2. Run `bundle install`
+3. Run `rake db:create`
+4. Run `rake db:migrate`
+5. Run `rails s`
+6. Visit `localhost:3000` in your browser
 
-* System dependencies
+# To Run The Tests:
 
-* Configuration
+1. Run `rake db:test:prepare`
+2. Run `rspec`
 
-* Database creation
+# To Deploy To Heroku:
 
-* Database initialization
+1. Create a Heroku account
+2. Install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
+3. Run `heroku create`
+4. Run `git push heroku master`
+5. Run `heroku run rake db:migrate`
+6. Run `heroku open`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+# To Deploy To AWS:
 
-* Deployment instructions
+1. Create an AWS account
+2. Install the [AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
+3. Run `aws configure`
+4. Run `eb init`
+5. Run `eb create`
+6. Run `eb open`
 
-* ...
+
+# To Deploy To Digital Ocean:
+
+1. Create a Digital Ocean account
+2. Install the [Digital Ocean CLI](     )
+3. Run `doctl auth init`
+4. Run `doctl apps create`
+5. Run `doctl apps code-deploy`
+6. Run `doctl apps open`
+
+# To Deploy To Google Cloud:
+
+1. Create a Google Cloud account
+2. Install the [Google Cloud SDK](https://cloud.google.com/sdk/)
+3. Run `gcloud init`
+4. Run `gcloud app create`
+5. Run `gcloud app deploy`
+6. Run `gcloud app browse`
+
+# To Deploy To Azure:
+
+1. Create an Azure account
+2. Install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+3. Run `az login`
+4. Run `az webapp up`
+5. Run `az webapp browse`
+
+# Follow Me:
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/andrewmcodes.svg?style=social&label=Follow)](https://twitter.com/AvijitSen123)
+![GitHub followers](https://img.shields.io/github/followers/ashavijit.svg?style=social&label=Follow)
+
+
+
+
+
