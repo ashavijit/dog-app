@@ -64,10 +64,20 @@
 4. Run `az webapp up`
 5. Run `az webapp browse`
 
+# To Deploy To Render:
+
+1. Create a Render account
+2. Install the [Render CLI](https://render.com/docs/deploy-cli)
+3. Run `render init`
+4. Run `render deploy`
+5. Run `render open`
+
 # Follow Me:
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/andrewmcodes.svg?style=social&label=Follow)](https://twitter.com/AvijitSen123)
 ![GitHub followers](https://img.shields.io/github/followers/ashavijit.svg?style=social&label=Follow)
+
+
 
 
 

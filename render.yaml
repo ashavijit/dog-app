@@ -1,0 +1,18 @@
+databases:
+  - name: mysite
+    databaseName: mysite
+    user: mysite
+
+services:
+  - type: web
+    name: mysite
+    env: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: postgres://dogs_pr6i_user:NlFzLGXtPOkrdFqUkkdMwNmHgDLheXOR@dpg-cfqd6g2rrk08lt5sdqbg-a/dogs_pr6i
+        fromDatabase:
+          name: mysite
+          property: connectionString
+      - key: 40d5db31c62cd65d0afe3f52762169b4
+        sync: false
