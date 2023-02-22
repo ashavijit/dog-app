@@ -79,7 +79,47 @@
 
 
 
+# Folder Information(Ruby on Rails)
 
+app- This directory groups using different subdirectories for the UI/layout (views and helpers), the controller (controllers files) and the models (business/application logic).
+
+app/controllers – This directory stores controller files used by Rails to handle requests from the client.
+
+app/assets – It contains static files, which is a need for the application’s front-end grouped into folders based on their type – JavaScript files, images, and stylesheets.
+
+app/helpers – This subdirectory contains helper functions that make your application model, view, and controller logic focused, small and uncluttered.
+
+app/models – This contains files that model your application’s database. The model classes make working with the database very easy.
+
+app/views – This hold template/layout files the user of your application interacts with. The templates are a combination of HTML and data from the database.
+
+bin – It contains Rails scripts that starts your application. It can also include other scripts that you use to set up and upgrade the application.
+
+Config – This holds configuration files – database.yml, environment.rb, routes.rb, etc. that your application needs to run.
+
+DB – This directory contains files/scripts that are used to manage your application database.
+
+lib – This directory contains an extended module for your application.
+
+log – This contains log files – server.log, development.log, test.log, and production.log, etc., that are used for debugging or monitoring your application.
+
+public – This directory contains static files and compiled assets, such as HTML files, Javascript files, images, and stylesheets.
+
+test – This directory holds test files you write to test your application functionality.
+
+tmp – This directory contains temporary files like cache and pid files.
+
+vendor – This directory contains third-party libraries.
+
+Gemfile – This file specifies what your basic gem requirements are to run your web application. You can group the gems into development, test or production and Rails will know when to include each gem.
+
+Gemfile.lock – Unlike the Gemfile that explicitly lists the gems you want in your application, Gemfile.lock additionally contains other gems that those you list in the Gemfile depends on that are then automatically installed to satisfy the dependencies.
+
+Readme.md – You use this file to share essential detail about your application, such as what the app does, how to go about installing and run the application.
+
+Rakefile – This file contains various rake tasks definitions, which helps in automating everyday administration tasks of your application.
+
+config.ru – This is a Rack configuration file that provides an interface to the webserver to start your application.
 
 
 
